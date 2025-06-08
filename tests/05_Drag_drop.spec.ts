@@ -1,6 +1,6 @@
-import { test, expect } from '@playwright/test'
+import { test, expect, FrameLocator } from '@playwright/test'
 
-async function selectDOB(frame, year: string, month: string, day: string) {
+async function selectDOB(frame: FrameLocator, year: string, month: string, day: string) {
     await frame.locator('[id="datepicker"]').click();
 
     // Loop until the correct year and month are selected
@@ -20,7 +20,7 @@ async function selectDOB(frame, year: string, month: string, day: string) {
 
 
 test("drag and drop test", async ({ page }) => {
-    page.goto('https://jqueryui.com/droppable/');
+    await page.goto('https://jqueryui.com/droppable/');
     const frame = page.frameLocator('[class="demo-frame"]')
     const dargElement = frame.locator('[id="draggable"]')
     const dropElement = frame.locator('[id="droppable"]')
