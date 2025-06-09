@@ -1,11 +1,7 @@
 import { test, expect } from '@playwright/test'
 
-let context
 test.beforeAll(async ({ browser }) => {
-    context = await browser.newContext();
-    const page = await context.newPage();
-    await page.goto('https://www.google.com/');
-    // await page.close(); 
+    console.log("before tests")
 });
 
 test.afterAll("run after all", async () => {
@@ -13,7 +9,7 @@ test.afterAll("run after all", async () => {
 })
 
 test("My first test", async ({ browser  }) => {
-
+    const  context = await browser.newContext();
     const page = await context.newPage();
     await page.goto('https://www.google.com/');
 

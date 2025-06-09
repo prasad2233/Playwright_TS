@@ -1,0 +1,13 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="3.2472">
+<testsuite name="Chapter4\07_Radio_and_check.spec.ts" timestamp="2025-06-08T10:23:25.016Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.388" errors="0">
+<testcase name="checkbox radio button" classname="Chapter4\07_Radio_and_check.spec.ts" time="2.388">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter4-07_Radio_and_check-checkbox-radio-button-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Chapter4-07_Radio_and_check-checkbox-radio-button-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

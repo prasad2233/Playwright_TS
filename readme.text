@@ -1,1 +1,12 @@
+Installetion 
+npm install 
+
+
+run tests
+npx playwright test
+
+rerun tests 
 npx playwright test --grep "Smoke" --repeat-each=5
+
+run with 2 workers
+npx playwright test 04_test_reports.spec.ts  --worker 2
