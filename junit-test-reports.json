@@ -1,11 +1,20 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="3.2472">
-<testsuite name="Chapter4\07_Radio_and_check.spec.ts" timestamp="2025-06-08T10:23:25.016Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.388" errors="0">
-<testcase name="checkbox radio button" classname="Chapter4\07_Radio_and_check.spec.ts" time="2.388">
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="5.297221">
+<testsuite name="Chapter5\03_POM.spec.ts" timestamp="2025-06-09T12:27:38.258Z" hostname="chromium" tests="2" failures="0" skipped="0" time="5.334" errors="0">
+<testcase name="Login to the application with valid crediatils" classname="Chapter5\03_POM.spec.ts" time="1.725">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results\Chapter4-07_Radio_and_check-checkbox-radio-button-chromium\test-finished-1.png]]
+[[ATTACHMENT|test-results\Chapter5-03_POM-Login-to-t-6fcfe-ation-with-valid-crediatils-chromium\test-finished-1.png]]
 
-[[ATTACHMENT|test-results\Chapter4-07_Radio_and_check-checkbox-radio-button-chromium\trace.zip]]
+[[ATTACHMENT|test-results\Chapter5-03_POM-Login-to-t-6fcfe-ation-with-valid-crediatils-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Logihjn to the application with valid crediatils" classname="Chapter5\03_POM.spec.ts" time="3.609">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter5-03_POM-Logihjn-to-0ad2c-ation-with-valid-crediatils-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Chapter5-03_POM-Logihjn-to-0ad2c-ation-with-valid-crediatils-chromium\trace.zip]]
 ]]>
 </system-out>
 </testcase>

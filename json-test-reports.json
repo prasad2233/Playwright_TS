@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "reporter": [
@@ -47,7 +47,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "chromium",
         "name": "chromium",
@@ -68,13 +68,13 @@
   },
   "suites": [
     {
-      "title": "Chapter4\\07_Radio_and_check.spec.ts",
-      "file": "Chapter4/07_Radio_and_check.spec.ts",
+      "title": "Chapter5\\03_POM.spec.ts",
+      "file": "Chapter5/03_POM.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "checkbox radio button",
+          "title": "Login to the application with valid crediatils",
           "ok": true,
           "tags": [],
           "tests": [
@@ -89,23 +89,23 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2388,
+                  "duration": 1725,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-08T10:23:25.556Z",
+                  "startTime": "2025-06-09T12:27:38.846Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\pc\\Desktop\\PTS\\Playwright_TS\\test-results\\Chapter4-07_Radio_and_check-checkbox-radio-button-chromium\\test-finished-1.png"
+                      "path": "C:\\Users\\pc\\Desktop\\PTS\\Playwright_TS\\test-results\\Chapter5-03_POM-Login-to-t-6fcfe-ation-with-valid-crediatils-chromium\\test-finished-1.png"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\pc\\Desktop\\PTS\\Playwright_TS\\test-results\\Chapter4-07_Radio_and_check-checkbox-radio-button-chromium\\trace.zip"
+                      "path": "C:\\Users\\pc\\Desktop\\PTS\\Playwright_TS\\test-results\\Chapter5-03_POM-Login-to-t-6fcfe-ation-with-valid-crediatils-chromium\\trace.zip"
                     }
                   ]
                 }
@@ -113,9 +113,54 @@
               "status": "expected"
             }
           ],
-          "id": "b00fe4d9402e33c8499c-3939f1905bce73465ba1",
-          "file": "Chapter4/07_Radio_and_check.spec.ts",
-          "line": 4,
+          "id": "c9303928bd8fa6008ffb-59b5a12d0faf6e1d4f6f",
+          "file": "Chapter5/03_POM.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "Logihjn to the application with valid crediatils",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3609,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-09T12:27:38.846Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\pc\\Desktop\\PTS\\Playwright_TS\\test-results\\Chapter5-03_POM-Logihjn-to-0ad2c-ation-with-valid-crediatils-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\pc\\Desktop\\PTS\\Playwright_TS\\test-results\\Chapter5-03_POM-Logihjn-to-0ad2c-ation-with-valid-crediatils-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c9303928bd8fa6008ffb-406f5405716189c8b682",
+          "file": "Chapter5/03_POM.spec.ts",
+          "line": 20,
           "column": 5
         }
       ]
@@ -123,9 +168,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-08T10:23:25.004Z",
-    "duration": 3247.2,
-    "expected": 1,
+    "startTime": "2025-06-09T12:27:38.243Z",
+    "duration": 5297.2210000000005,
+    "expected": 2,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
